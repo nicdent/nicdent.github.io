@@ -661,6 +661,10 @@ footer{
     max-width: 100%;
   }
 
+  .case-splash p.case-name {  
+    margin: 0px 0px 0px 20px;
+}
+
 
   
 
