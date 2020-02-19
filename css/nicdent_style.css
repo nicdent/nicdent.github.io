@@ -202,10 +202,19 @@ article.case-splash img{
 }
 
 .hero-banner{
-  background: url(../img/case-bg2x.png) no-repeat #333;
+  background: url(../img/case1-bg2x.png) no-repeat #333;
   background-size: 1660px;
   height: 200px;
+}
 
+.hero-banner-case2{
+  background: url(../img/case2-bg2x.png) no-repeat #333;
+  background-size: 1660px;
+}
+
+.hero-banner-case3{
+  background: url(../img/case3-bg2x.png) no-repeat #333;
+  background-size: 1660px;
 }
 
 .main-content{
@@ -331,6 +340,25 @@ article.case-splash img{
   margin-top: -20px;
 }
 
+
+
+.project-responsibilities{
+  
+  list-style: none;
+  margin: 0px 0px 80px 0px;
+  padding: 0px 0px 0px 0px;
+  border-left: 1px solid #C4CACF;
+}
+
+
+.project-responsibilities li{
+  margin: 0px 0px 16px 0px;
+  padding-left: 16px;
+  
+}
+
+
+
 .project-text{
   max-width: 1240px;
   margin-top: -20px;
@@ -376,7 +404,7 @@ article.case-splash img{
 footer{
   margin-top: 160px;
   padding: 20px 0px; 
-  border-top: 1px solid #323335;
+  border-top: 1px solid #C4CACF;
 }
 
 
@@ -665,12 +693,16 @@ footer{
     margin: 0px 0px 0px 20px;
 }
 
+  .case-splash p.company {  
+      margin: 0px 0px 0px 20px;
+  }
+
 
   
 
   .main-content p{
     font-size: 16px;
-    max-width: 100%;
+    max-width: 92%;
   }
 
   .case-keydetails{
@@ -717,6 +749,13 @@ footer{
     max-width: 94px;
     margin-top: -180px;
     left: -10px;
+  }
+
+  .project-responsibilities li{
+  max-width: 100%;
+  }
+  .project-responsibilities li{
+  font-size: 14px;
   }
 
   footer{
