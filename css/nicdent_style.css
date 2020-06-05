@@ -596,6 +596,10 @@ footer{
     margin: 0px 0px 40px 0px;
   }
 
+  h1 > span{
+    display:block;
+  }
+
   h2{
     font-size:20px;
     margin-top: 8px;
